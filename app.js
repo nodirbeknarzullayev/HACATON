@@ -1,13 +1,13 @@
-// const lastname = ['Saidov', 'Hoshimov', 'Erkinov'];
+ const lastname = ['Saidov', 'Hoshimov', 'Erkinov'];
 
-// const qizbolafamiliya = lastname.map(lastname => {
-//     if (!lastname.endsWith('va')){
-//         return lastname + 'a';
-//     }
-//     return lastname;
-// });
+ const qizbolafamiliya = lastname.map(lastname => {
+     if (!lastname.endsWith('va')){
+         return lastname + 'a';
+     }
+     return lastname;
+ });
 
-// console.log(qizbolafamiliya);
+ console.log(qizbolafamiliya);
 
 // Funksiya N sonini toq yoki juftligini aniqlash uchun
 function toqYokiJuft(n) {
@@ -51,14 +51,14 @@ function toqYokiJuft(n) {
 //   const uniqueNumber2 = findUniqueNumber(numbers2);
 //   console.log(uniqueNumber2); // 0.55
   
-function factorial(n) {
-    if (n === 0 || n === 1) {
-      return 1;
-    }
-    return n * factorial(n - 1);
-  }
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//       return 1;
+//     }
+//     return n * factorial(n - 1);
+//   }
   
-  // Misol
-  const number = 5;
-  console.log(`${number}! = ${factorial(number)}`); // 5! = 120
+//   // Misol
+//   const number = 5;
+//   console.log(`${number}! = ${factorial(number)}`); // 5! = 120
   
